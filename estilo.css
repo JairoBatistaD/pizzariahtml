@@ -6,6 +6,7 @@
 
 	}
 
+
 body{
 	background-image: linear-gradient(rgba(0,10,0,1),rgba(0,0,0,0.2)), url("back.jpg") ;
 	background-attachment: fixed;
@@ -76,4 +77,17 @@ form{
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: 10px 5px  4px 3px  red;
+    transition:all 0.3s ease;
+}
+#imagem:hover{
+    width: 105%;
+	height: 220px;
+	border: solid black 10px;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 10px 5px  4px 3px  red;
+    
+}
+.btn btn-warning{
+background: blue;
 }
